@@ -1,10 +1,15 @@
-import express  from "express";
-import { createOrder, getAllOrders } from "../controller/orderController.js";
+import express from "express";
+import {
+  checkout,
+  createOrder,
+  getAllOrders,
+} from "../controller/orderController.js";
 
 const router = express.Router();
 
 router
-.get("/",getAllOrders)
-.post("/", createOrder)
+  .get("/", getAllOrders)
+  .post("/", createOrder)
+  .post("/checkout", checkout);
 
-export {router as orderRoute}
+export { router as orderRoute };
