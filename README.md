@@ -1,13 +1,4 @@
 
-Copied
-
-Skip to content
-Using Gmail with screen readers
-Conversations
-0.03 GB of 15 GB used
-Terms · Privacy · Program Policies
-Last account activity: 5 hours ago
-Details
 # Server for Cart System
 
 ### Pre-requisites
@@ -18,15 +9,17 @@ Details
 
 ### Local Setup
 1. Clone the repository
-`git clone https://github.com/Zaahiid/`
+`git clone https://github.com/Zaahiid/cart-system-server.git`
 
 2. Navigate to the directory
-`cd flder-name`
+`cd cart-system-server`
 
 3. Install dependencies
 `npm install`
 4. Create MongoDB collection
-    Create MongoDB collection for stroring Data and add it's URL to .env file
+    Create MongoDB collection for storing Data and add it's URL to .env file
+5. Get Stipe Secret Key
+    Create Stripe account and add secret key to .env file
 
 ### Start the app
 
